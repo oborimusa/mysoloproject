@@ -1,0 +1,156 @@
+/* home.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+  
+  ul {
+    list-style-type: none;
+  }
+  a {
+    text-decoration: none;
+  }
+  
+  .nav-flight i{
+    padding: 3px;
+    
+   }
+   .nav-Hotel i{
+    padding: 3px;
+    
+   }
+   .nav-Airport i{
+    padding: 3px;
+   }
+   .nav-rentals i{
+    padding: 3px;
+   }
+  
+  
+   ul li{
+    
+    margin-left: 40px;
+   
+   }
+  
+   .card-header{
+    margin: auto;
+  }
+  
+  
+  header {
+    margin-bottom: 20px;
+  }
+  
+  .hotel-details {
+    margin-top: 40px;
+  }
+  
+  .amenities {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .amenities li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  .card img {
+    width: 100%;
+    border-radius: 7px;
+  }
+  
+  footer {
+    margin-top: 40px;
+  }
+  
+  /* hotel.css */
+  .text-center .btn {
+    background-color: rgb(227, 219, 219);
+    margin-top: 50px;
+  }
+  
+  .text-center button:hover {
+    background-color: rgb(200, 200, 200);
+  }
+  
+  .mini{
+    position: relative;
+    z-index: -1;
+  }
+  
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  input[type="submit"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #333;
+    color: #fff;
+  }
+  
+  button:hover {
+    background-color: #555;
+  }
+  
+  #searchResults {
+    margin-top: 10px;
+  }
+  
+  /* Dashboard styles */
+  .hotel-info {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  
+  
+  @media (max-width: 768px) {
+    .navbar-brand,
+    .nav-link,
+    .form-control,
+    .btn {
+        font-size: 14px;
+    }
+  
+    .hotel-details h2,
+    .hotel-details p {
+        font-size: 16px;
+    }
+  
+    .card-title {
+        font-size: 20px;
+    }
+  
+    .card-text {
+        font-size: 12px;
+    }
+  
+    .gallery .card h6 {
+        font-size: 14px;
+    }
+  }
+  

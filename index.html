@@ -1,0 +1,703 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IrinAjo - Home</title>
+    <link rel="stylesheet" href="/bootstrap-5.3.3-dist/bootstrap.min.css">
+    <link rel="stylesheet" href="css/home.css">
+    <script src="/bootstrap-5.3.3-dist/js/bootstrap.min.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/91ba4692c7.js" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+   
+
+<section id="hide-on-mobile">
+  <div id="signInBanner" class="sign-in-banner" data-aos="zoom-in">
+    <span class="close-banner" onclick="closeBanner()">×</span>
+    <p style="color: #07278c;">Please sign in to access more features.</p>
+    <a href="signin.html"><button class="sign-in-button">Sign In</button></a>
+  </div>
+</section>
+
+   
+ 
+
+<header>
+  <nav class="navbar navbar-expand-lg" style="background-color: #345ce0;">
+    <div class="container-fluid">
+      <a class="navbar-logo" href="/home/home.html">
+        <img src="/Image/Irinajo2.jpg" alt="Irinajo" style="width: 60px; border-radius: 15px;">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 mt-5" style="margin: auto;">
+          <li class="nav-item">
+            <a class="nav-link active" href="hotel.html" style="font-size: 16px; color: white"><i class="fa-solid fa-hotel"></i> Hotels</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="https://www.travelwings.com/ng/en" style="font-size: 16px; color: white;"><i class="fa-solid fa-plane-departure"></i> Flight</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="https://airportstaxitransfers.com/" style="font-size: 16px; color: white;"><i class="fa-solid fa-taxi"></i> Airport Taxis</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="https://www.sixt.com/car-rental/nigeria/" style="font-size: 16px; color: white;"><i class="fa-solid fa-taxi"></i> Car Rentals</a>
+          </li>
+         </ul>
+
+         <!-- <a href="signin.html"><button style="border-radius: 10px; background-color: white; color: #07278c; font-weight: bold;">Sign Up / Log In</button></a> -->
+        
+      </div>
+    </div>
+  </nav>
+</header>
+
+
+
+<section>
+<div class="container">
+    <h3 style="font-weight: bold; color: #07278c; margin: 20px;">Where to?</h3>
+</div>
+</section>
+
+<section>
+<div class="container">
+    <form id="searchForm" class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" id="searchInput" style="box-shadow: 2px 2px 2px 1px;">
+        <button class="btn btn-outline-success" type="submit" style="color: black; border-color: black; background-color: white; box-shadow: 2px 2px 2px 1px;">Search</button>
+    </form>
+    <div id="searchResult" class="mt-3"></div>
+</div>
+</section>
+
+
+
+<section class="hide-on-mobile">
+
+<div class="container">
+<div class="row">
+    <div class="col-4" style="height: 25vh;">
+        <div class="card" style="height: 15vh;">
+            <div class="card-body">
+                <label for="">Destination</label>
+                <input type="search" name="text" id="">
+            </div>
+        </div>
+    </div>
+    
+    
+    <div class="col-4">
+        <div class="card">
+            <div class="card-body">
+                <label for="">Check-in</label>
+                <input type="date" name="" id="" style="border: 0;"><br>
+                <label for="">Check-out</label>
+                <input type="date" name="" id="" style="border: 0;">
+            </div>
+        </div>
+    </div>
+   
+
+    <div class="col-4">
+        <div class="card">
+            <div class="card-body">
+                <h6>Room and Guest</h6>
+                <p>1 room, 2 Adults, 0 Children</p>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+</section>
+
+<section>
+  <div class="container text-center">
+      <span class="col-1">
+                         
+      <a href="lodgersregistrationform.html"><button class="btn" type="button" style="border: 2px solid white; background-color: #07278c; color: white; height: 8vh; border-radius: 15px; font-weight: bold;">Register as a Lodger</button></a>
+          </span>
+
+            <span class="col-2">
+          <a href="hotelform.html"><button class="btn btn-danger" type="button" style="border: 2px solid white; height: 8vh; border-radius: 15px; font-weight: bold;">Register Your Hotel</button></a>
+            </span>
+      </div>
+    
+</section>  
+
+<div class="container">
+  <h3 style="margin-top: 30px; font-weight: bold; color: #07278c; border-radius: 15px; 
+  height: 10vh; align-content: center;">Browse by hotel type in Nigeria</h3>
+</div>
+
+<section class="hero">
+
+
+<h1 style="margin-top: 40px;">Find Your Dream Hotel</h1>
+<p style="margin-bottom: 3%;">Explore our selection of luxury and budget-friendly hotels</p>
+<div class="btn">
+  <a href="search.html"><button style="height: 8vh; border-radius: 15px; color: white; font-weight: bold; background-color: #07278c; border: 2px;">Start Searching</button></a>
+</div>
+
+</section>
+
+<section class="mid">
+<div class="container text-center">
+    
+        <div class="row align-items-start">
+            <div class="col">
+                <div class="box-one">
+                    <h3>Find and book your <br>perfect stay </h3>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="box-two">
+                  <h3>Earn rewards on every <br>night you stay</h3>
+                </div>
+            </div>
+            
+            <div class="col">
+                <div class="box-three">Save more with <br>Member Prices</div>
+            </div>
+            <div class="col">
+                <div class="box-four">Free cancellation <br>options if plans change</div>
+            </div>
+        </div>
+  
+</div>
+</section>
+
+
+<section>
+      <div class="dd-grid">
+      <h3>Enjoy Our Special Offer</h3>
+    </div>
+      <div class="btn-btn">
+        <a href="booknow.html"><button class="btn btn" type="button">Book Now</button></a>
+      
+     </div>
+
+</section>
+  
+
+
+<section class="featured-hotels">
+  <div class="container">
+<div class="hotel">
+<h2 style="margin: 30px 10px; font-weight: bold; color: #07278c;">Featured Hotels</h2>
+
+<div class="container">
+  
+</div>
+    <div class="hotel-card">
+      <img src="/Image/hotel.jpeg" alt="Hotel 1" style="height: 65vh;">
+        <h3>Golden Palace Hotel</h3>
+        <p>Beautiful hotel in the heart of the city</p>
+          <a href="hoteldetails.html"><button style="border-radius: 7px; background-color: #07278c; color: white;">Hotel Details</button></a>
+    </div>
+
+    <div class="hotel-card">
+      <img src="/Image/Dubai.webp" alt="Hotel 2"  style="height: 65vh;">
+        <h3>Princess Luxury Hotel</h3>
+            <p>Description of Hotel 2</p>
+              <a href="hoteldetails.html"><button style="border-radius: 7px; background-color: #07278c; color: white;">Book Now</button></a>
+    </div>
+<!-- Add more hotel cards here -->
+</div>
+  </div>
+</section>
+
+<section>
+<div class="container">
+    <iframe src="lodgersregistrationform.html" width="100%" height="600" style="border:none;"></iframe>
+</div>
+</section>
+
+<section>
+<div class="container">
+<div class="check">
+    <h3 style="font-weight: bold;">Browse by hotel type in Nigeria</h3>
+</div>
+<div class="row">
+    <div class="col-sm-3">
+        <div class="cardbody-one">
+            <a href="/Hotel/hotel.html"><img src="/Image/h4.jpeg" alt="" style="width: 100%; margin-top: 10px; border-radius: 7px; height: 28vh;"></a>
+            <a href="https://goldensand.gr/en/home/"><h6 style="text-align: center;">Golden Sand</h6></a>
+        </div>
+    </div>
+    <div class="col-sm-3">
+        <div class="card-body">
+            <a href="/Hotel/hotel.html" style="text-decoration: none;"><img src="/image/h12 (1).webp" alt="" style="width: 100%; margin-top: 10px; border-radius: 7px; height: 28vh;"></a>
+            <h6 style="text-align: center;">Agura Hotel</h6>
+        </div>
+    </div>
+    <div class="col-sm-3">
+        <div class="card-body">
+            <a href="/Hotel/hotel.html" style="text-decoration: none;"><img src="/Image/hotel kaduna.jpeg" alt="" style="width: 100%; margin-top: 10px; border-radius: 7px; height: 28vh;"></a>
+            <h6 style="text-align: center;">Dubai Hotel</h6>
+        </div>
+    </div>
+    <div class="col-sm-3">
+        <div class="card-body">
+            <a href="/Hotel/hotel.html" style="text-decoration: none;"><img src="/Image/h2.jpeg" alt="" style="width: 100%; margin-top: 10px; border-radius: 7px; height: 28vh;"></a>
+            <h6 style="text-align: center;">Golden Palace</h6>
+        </div>
+    </div>
+</div> 
+</div>
+</section>  
+
+<section>
+
+<div class="container">
+<div class="row">
+<div class="col-sm-3">
+  <div class="cardbody-one">
+    <a href="https://goldensand.gr/en/home/" class="hotel-link" data-hotel-id="1">
+      <img src="/Image/Rotana Hotel.jpeg" alt="" style="width: 100%; margin-top: 10px; border-radius: 7px; height: 28vh;">
+    </a>
+    <a href="https://goldensand.gr/en/home/" class="hotel-link" data-hotel-id="1">
+      <h6></h6>
+    </a>
+  </div>
+</div>
+
+<div class="col-sm-3">
+  <div class="cardbody-two">
+    <a href="" class="hotel-link" data-hotel-id="2" style="text-decoration: none;">
+      <img src="/Image/hotel-photo-258154.jpeg" alt="" style="width: 100%; margin-top: 10px; border-radius: 7px; height: 28vh;">
+    </a>
+    <a href="" class="hotel-link" data-hotel-id="2">
+      <h6></h6>
+    </a>
+  </div>
+</div>
+
+<div class="col-sm-3">
+          
+  <div class="cardbody-three">
+     
+<a href=""> <img src="/Image/niagara-falls-waterfall-horseshoe-158398.jpeg" alt="" style="width: 100%; margin-top: 10px; border-radius: 7px; height: 28vh;">
+  <h6></h6></a>
+  </div>
+
+</div>
+
+<div class="col-sm-3">
+          
+<div class="cardbody-four">
+    
+   <a href=""><img src="/Image/hotel-photo-297984.jpeg" alt="" style="width: 100%; margin-top: 10px; border-radius: 7px; height: 28vh;">
+    <h6></h6></a>
+</div>
+
+</div>
+
+<!-- Add similar divs for other hotels -->
+</div>
+</div>
+
+
+</section>
+<section>
+  <div class="container">
+
+    <div class="card-body">
+        <h2>
+          Explore Nigeria</h2>
+          <p>These popular destinations have a lot to offer</p>
+      </div>
+           
+  </div>
+</section>
+  
+
+  <section>
+    <div class="container">
+      <a href="destination.html"><button style="width: 100%; background: #07278c; color: white; height: 5vh; margin-bottom: 25px;">Search Destination</button></a>
+    </div>
+  </section>
+        
+
+<section>
+  
+  
+  <div class="container" >
+    
+    <div class="row">
+        <div class="col-sm-2">
+          
+            <div class="card-body">
+                
+              <div class="photo"> <img src="/Image/spot5.jpg" alt="" style="width: 90%;">
+                <h6>Ilorin</h6>
+              </div>
+              
+            
+          </div>
+        </div>
+
+        <div class="col-sm-2">
+          
+            <div class="card-body">
+                
+                 <div class="photo-two"> <img src="/Image/kano.jpg" alt="" style="width: 90%;">
+                  <h6>Kano</h6>
+
+                 </div>
+               
+               
+            
+          </div>
+        </div>
+
+        <div class="col-sm-2">
+            
+              <div class="card-body">
+                <div class="photo-three">
+                  <img src="Image/Abuja.PNG" alt="" style="width: 90%;">
+                    <h6>Abuja</h6>
+                  </div>
+              
+            </div>
+          </div>
+
+          <div class="col-sm-2">
+            
+              <div class="card-body">
+                <div class="photo-four">
+                  <img src="/Image/spot5.jpg" alt="" style="width: 90%;">
+                    <h6>Port-hacourt</h6>
+                  </div>
+                
+            </div>
+          </div>
+
+          <div class="col-sm-2">
+            
+              <div class="card-body">
+                <div class="photo-five">
+                  <img src="/Image/spot7.webp" alt="" style="width: 90%;">
+                    <h6>Ibadan</h6>
+                  </div>
+                
+            </div>
+          </div>
+
+          <div class="col-sm-2">
+            
+              <div class="card-body">
+                <div class="photo-five">
+                  <img src="/Image/Lagos.PNG" alt="" style="width: 90%;">
+                    <h6>Lagos</h6>
+                  </div>
+            </div>
+          </div>
+
+        
+      </div>
+    </div>
+</section>
+
+<section>
+  <div class="container-fluid" style="text-align: center; margin: 20px;">
+    <div class="cont">
+      <h2 style="color: white; height: 10vh; font-weight: bold; background-color: #07278c; border-radius: 15px;">Book Your Flight, Airport Taxis and Car Rentals <br>from the comfort of your home</h2>
+  </div>
+    </div>
+    
+</section>
+
+<section>
+
+<div class="container">
+<div class="photo1">
+<div class="row">
+  <div class="col-xl-6">
+    <div class="container">
+      <div class="rentals">
+        <!-- <h4 style="color: red;">Airport Taxis and Car Rentals</h4> -->
+      </div>
+    </div>
+    <div class="card-bodyone" data-aos="fade-up-right">
+         
+       <a href="https://airportstaxitransfers.com/" style="text-decoration: none;"> <img src="/Image/airport.webp" alt="" style="width: 100%;">
+        </a>
+       
+      </div>
+    </div>
+
+  <div class="col-xl-6">
+    <div class="container">
+      <div class="rentals-two">
+        <!-- <h4>Car Rentals</h4> -->
+      </div>
+    </div>
+      <div class="card-bodytwo" data-aos="zoom-in">
+        
+          
+        <a href="https://www.sixt.com/car-rental/nigeria/" style="text-decoration: none;"><img src="/Image/Car Rentals.PNG" alt="" style="width: 100%;">
+      <h6></h6></a>
+    </div>
+  </div>
+</div>
+</div>
+
+</div>
+
+</section>
+
+<section>
+<div class="container">
+<div class="photo1">
+<div class="container">
+  <div class="rentals-three">
+    <a href="https://www.travelwings.com/ng/en">
+      <div><button>Book Your Flight</button></div></a>
+  </div>
+</div>
+</div>
+</div>
+</section>
+
+<section>
+   
+<div class="row">
+  <div class="col-12 mt-2">
+              
+   <div class="card-bodythree w-100" data-aos="fade-up-right">
+         
+       <a href="https://www.travelwings.com/ng/en"><img src="/Image/flight.PNG" alt="" style="width: 100%; height: 50vh;">
+        </a>
+        <a href="https://www.travelwings.com/ng/en" style="text-decoration: none; width: 100%; height: 25vh;"><h6></h6></a>
+      </div>
+    
+  </div>
+
+
+</div>
+</div>
+
+</div>
+</section>
+
+<!-- Additional Sections can be added here -->
+
+<!-- Call-to-Action Section -->
+<section class="cta">
+<h2>Ready to Book?</h2>
+<p>Sign up or log in to start booking</p>
+<a href="signin.html"><button style="border-radius: 7px; background-color: #07278c; color: white;">Sign Up / Log In</button></a>
+</section>
+    
+
+<section>
+      <!-- <div class="container">
+        <div class="d-grid gap-2"  style="text-align: center; padding: 30px;">
+          <a href="signin.html"><button class="btn btn-primary" type="button">Sign-In</button></a>
+          
+        </div>
+      </div> -->
+      
+      
+      <!-- <div class="container-fluid" style="margin-bottom: 10px;">
+        <div class="inthe-know">
+          <h4 style="text-align: center; color: black;">Stay in the know</h4>
+          <p style="text-align: center; color: black;"> Sign up to get marketing emails from IrinAjo.com, including promotions, 
+            <br>rewards, 
+            travel experiences, and <br>information about IrinAjo.com and Booking.com Transport Limited’s 
+            products and services. </p>
+        </div>
+      </div>    -->
+
+      </section>
+            
+
+<div class="container-fluid">
+<p class="text-white bg-dark text-center">............Special Moment......</p>
+</div>
+
+
+</main>
+
+<footer>
+  <section>
+      <div class="container-fluid">
+          <div class="card-header w-100" 
+          style="background-color: #07278c; background-color: #07278c; color: white; padding-top: 10px;">  
+              <div class="nav nav-tabs card-header-tabs ">
+                <div class="row">
+                    <div class="col" style="margin-left: 10px;">
+  
+      <!-- <img class="logo" src="/Image/Irinajo2.jpg" alt="" style="width: 50px; height: 10vh;"> -->
+            <h5 pt-5>Contact</h5>
+            <p><strong>Address: </strong>28 Pipeline Road</p>
+            <p><strong>Phone: </strong>+234 803 966 1354</p>
+            <p><strong>Hours: </strong>9:00 - 17:00, Mon - Fri</p>
+            </div>
+
+
+      <div class="col">
+
+        <ul>
+
+          <li>
+             Countries
+          </li>
+          <li>
+              Hotels
+          </li>
+          <li>
+              Places of interest
+          </li>
+          <li>
+              Countries
+          </li>
+          <li>
+              Countries
+          </li>
+         </ul>
+      </div>
+
+
+
+<div class="col-2">
+  <h5>About</h5>
+  <a href="about.html">About us</a>
+  <a href="#">Delivery Information</a>
+  <a href="#">Privacy Policy</a>
+  <a href="#">Terms & Conditions</a>
+  <a href="contact.html">Contact us</a>
+
+  </div>
+
+  <div class="col">
+     
+    <ul>
+    <li>
+      Countries
+    </li>
+    <li>
+      Hotels
+    </li>
+    <li>
+      Places of interest
+    </li>
+    <li>
+      Countries
+    </li>
+    <li>
+   Countries
+    </li>
+        </li>
+      </ul>
+  
+</div>
+
+
+<div class="col">             
+  <h5>About</h5>
+  <a href="about.html">About us</a>
+  <a href="">Delivery Information</a>
+  <a href="#">Privacy Policy</a>
+  <a href="#">Terms & Conditions</a>
+  <a href="contact.html">Contact us</a>
+
+</div>
+</section>
+
+</div>
+</div>
+</div>
+</div>
+
+
+<span class="col-2">
+  <span class="icon">
+    <i class="fa-brands fa-whatsapp"><p style="color: rgb(143, 29, 29);">+2348039661354</p></i>
+    <i class="fab fa-facebook-f"><p style="color: rgb(207, 24, 24)">Tijani Daniel</p></i>
+    <span><i class="fab fa-twitter"><p>@DahiruMusa</p></i>
+    <i class="fab fa-instagram"></i>
+    <i class="fab fa-youtube"></i>
+    </span >
+  </span>
+
+
+
+
+
+ 
+
+<p style="margin-left: 30px;"> 2024 LodgersLink. All rights reserved.</p>
+
+</footer>
+
+
+<!-- Bootstrap Bundle with Popper -->
+
+
+<script>
+function closeBanner() {
+  var banner = document.getElementById('signInBanner');
+  banner.style.display = 'none';
+}
+</script>
+
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js"></script> -->
+<!-- Bootstrap Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"></script>
+
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2zJhQjxcqmx1MA4As+26Uwhb72pGqv93IVS5giyk6Hq2V9pBtHG1fTJTq" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+AOS.init();
+</script>
+
+
+<script src="js/vat.js">
+// document.getElementById('searchForm').addEventListener('submit', function(event) {
+//     event.preventDefault(); // Prevent form from submitting normally
+    
+//     const searchInput = document.getElementById('searchInput').value.toLowerCase();
+//     const hotels = [
+//         { name: 'Golden Sand', link: 'https://goldensand.gr/en/home/', image: '/Image/h4.jpeg' },
+//         { name: 'Agura Hotel', link: '/Hotel/hotel.html', image: '/Image/Hotel4.jpeg' },
+//         { name: 'Dubai Hotel', link: '/Hotel/hotel.html', image: '/Image/Hotel3.jpeg' },
+//         { name: 'Golden Palace', link: '/Hotel/hotel.html', image: '/Image/Hotel2.jpeg' }
+//     ];
+
+//     const result = hotels.find(hotel => hotel.name.toLowerCase().includes(searchInput));
+
+//     const resultContainer = document.getElementById('searchResult');
+//     resultContainer.innerHTML = ''; // Clear previous results
+
+//     if (result) {
+//         resultContainer.innerHTML = `
+//             <div class="card">
+//                 <img src="${result.image}" class="card-img-top" alt="${result.name}">
+//                 <div class="card-body">
+//                     <h5 class="card-title">${result.name}</h5>
+//                     <a href="${result.link}" class="btn btn-primary">Visit Hotel</a>
+//                 </div>
+//             </div>
+//         `;
+//     } else {
+//         resultContainer.innerHTML = '<p>No hotels found matching your search.</p>';
+//     }
+// });
+
+</script> 
+</body>
+</html>
+

@@ -1,0 +1,147 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .menu-bar {
+    background-color: #343a40;
+    padding: 15px 10px;
+    position: fixed;
+    width: 250px;
+    height: 100%;
+    transition: transform 0.3s ease;
+    transform: translateX(0);
+    z-index: 1000;
+  }
+  
+  .menu-bar .logo img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  .menu-bar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .menu-bar ul li {
+    margin: 10px 0;
+  }
+  
+  .menu-bar ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+  }
+  
+  .menu-bar ul li a:hover {
+    background-color: #495057;
+  }
+  
+  .content-main {
+    margin-left: 270px;
+    padding: 20px;
+  }
+  
+  .header-main {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .header-main .header-title h1 {
+    margin: 0;
+  }
+  
+  .card-container {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-guest {
+    background-color: #e9ecef;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .card-header {
+    margin-bottom: 10px;
+  }
+  
+  .card-header .icon {
+    font-size: 1.5rem;
+  }
+  
+  .dark-purple {
+    color: #6f42c1;
+  }
+  
+  .dark-yellow {
+    color: #ffc107;
+  }
+  
+  .dark-red {
+    color: #dc3545;
+  }
+  
+  .light-blue {
+    background-color: #cfe2ff;
+  }
+  
+  footer {
+    background-color: #343a40;
+    color: #fff;
+    padding: 20px 0;
+  
+  }
+  
+  .btn, fa-solid {
+    position: absolute;
+    top: 8.5%;
+    right: 10%;
+  }
+  
+  @media (max-width: 767.98px) {
+    .menu-bar {
+        transform: translateX(-100%);
+    }
+    .menu-bar.open {
+        transform: translateX(0);
+    }
+    .content-main {
+        margin-left: 0;
+    }
+    .header-main {
+        text-align: center;
+    }
+    .profile-info {
+        justify-content: center;
+        margin-top: 10px;
+    }
+    .profile-info .search-box {
+        width: 100%;
+    }
+    .profile-info .profile-img {
+        margin-top: 10px;
+    }
+  
+    .btn, fa-solid {
+      position: absolute;
+      top: 25%;
+      right: 20%;
+    }
+  }
+  

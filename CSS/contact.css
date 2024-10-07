@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .container h1 {
+    font-size: 36px;
+    font-weight: bold;
+  }
+  
+  .container p {
+    font-size: 18px;
+    color: #666;
+  }
+  
+  .desc h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+  }
+  
+  .desc p {
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .card {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  #messaging-form .form-control {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  #messaging-form .btn {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #messaging-form .btn:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .desc, .card {
+        margin-top: 20px;
+    }
+  }
+  

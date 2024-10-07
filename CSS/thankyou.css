@@ -1,0 +1,27 @@
+
+body{
+    /* background-color: lightgray;
+    font-size: 18px; */
+}
+
+
+.thankyou-container button {
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+
+@media screen and (max-width: 263px) {
+.thankyou-container a {
+
+    background-color: #007bff;
+    
+}
+}
+

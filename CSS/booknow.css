@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    margin-bottom: 20px;
+    
+  }
+  
+  .navbar-nav, ul, li{
+  padding-left: 70px;
+  }
+  
+  
+  .booking-form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  footer {
+    background-color: #f8f9fa;
+  } 
+  

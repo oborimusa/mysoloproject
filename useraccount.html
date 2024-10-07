@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IrinAjo - Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="CSS/useraccount.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/91ba4692c7.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+
+        <h1>User Account</h1>
+    </header>
+    <main>
+        <section>
+            <div class="container">
+                <a href="bookingconfirmation.html"><button>Confirm Booking</button></a>
+            </div>
+        </section>
+        <section id="profile-info" style="text-align: center;">
+            <h2>Profile Information</h2>
+            <form>
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" value="JohnDoe" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" value="john@example.com" required>
+
+                <button type="submit">Update Profile</button>
+            </form>
+        </section>
+
+        <section id="booking-history" style="text-align: center;">
+            <h2>Booking History</h2>
+            <ul>
+                <li>
+                    <p><strong>Hotel:</strong> Luxurious Hotel</p>
+                    <p><strong>Check-in Date:</strong> Jan 15, 2024</p>
+                    <p><strong>Check-out Date:</strong> Jan 20, 2024</p>
+                </li>
+                <li>
+                    <p><strong>Hotel:</strong> Coastal Retreat</p>
+                    <p><strong>Check-in Date:</strong> Mar 10, 2024</p>
+                    <p><strong>Check-out Date:</strong> Mar 15, 2024</p>
+                </li>
+            </ul>
+        </section>
+
+        <section id="wishlist">
+            <h2>Wishlist</h2>
+            <ul>
+                <li>
+                    <p><strong>Hotel:</strong> Mountain Escape</p>
+                    <button>Remove from Wishlist</button>
+                </li>
+                <li>
+                    <p><strong>Hotel:</strong> City Central</p>
+                    <button>Remove from Wishlist</button>
+                </li>
+            </ul>
+        </section>
+
+        <section id="security-settings">
+            <h2>Security Settings</h2>
+            <form>
+                <label for="current-password">Current Password:</label>
+                <input type="password" id="current-password" name="current-password" required>
+
+                <label for="new-password">New Password:</label>
+                <input type="password" id="new-password" name="new-password" required>
+
+                <label for="confirm-password">Confirm New Password:</label>
+                <input type="password" id="confirm-password" name="confirm-password" required>
+
+                <label for="id-card">Update National ID Card:</label>
+                <input type="file" id="id-card" name="id-card" accept="image/*">
+
+                <button type="submit">Update Security Settings</button>
+            </form>
+        </section>
+
+       
+    </main>
+    <footer>
+        <p>&copy; 2024 User Account. All rights reserved.</p>
+    </footer>
+</body>
+</html>
